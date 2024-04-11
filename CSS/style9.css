@@ -1,0 +1,31 @@
+body{
+
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction:column ;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    user-select: none;
+    cursor: pointer;
+}
+img{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    bottom:50px;
+    font-size:300px ;
+    width:150px;
+    height: 300px;
+}
+button:hover{
+    color: blueviolet;
+    background-color:#94ff7f;
+    cursor: pointer;
+}
